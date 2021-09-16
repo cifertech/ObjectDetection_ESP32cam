@@ -1,0 +1,3 @@
+# ObjectDetection_ESP32cam
+
+In the this tutorials of the ESP32-CAM series, we saw that using the original code, we will be able to process face image from face recognition to face separation, but in cases where we need to recognize different objects, different models must be introduced to our code. To be able to identify the objects we want with self-learning. But no matter how high the processing power of ESP chips, we can not leave all this complex processing to this small chip, so we will use Tensorflow.JS to combine it with the video sent from ESP32-CAM. Note that in this tutorial, Tensorflow.JS runs in the computer browser and therefore the machine learning model runs inside your browser.
